@@ -41,4 +41,4 @@ Describe any challenges encountered while building the app.
 <img src="https://raw.githubusercontent.com/chrisrosana/Flixster-app/master/flixApp.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+I was having a problem importing the AlamofireImage. Even though I installed, opened, and added the pod file correctly, I couldn't build the project since it doesn't recognize the AlamofireImage module. But one thing I did do to resolve this problem based on my research is to update the pod on the terminal and clean and build the project folder again.
