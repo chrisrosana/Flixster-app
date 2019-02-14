@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		131ADE8C2215020B006D1F47 /* SuperheroDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 131ADE8B2215020B006D1F47 /* SuperheroDetailsViewController.swift */; };
 		13440C3B220BDC910092A432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13440C3A220BDC910092A432 /* AppDelegate.swift */; };
 		13440C40220BDC910092A432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13440C3E220BDC910092A432 /* Main.storyboard */; };
 		13440C42220BDC940092A432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13440C41220BDC940092A432 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		131ADE8B2215020B006D1F47 /* SuperheroDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroDetailsViewController.swift; sourceTree = "<group>"; };
 		13440C37220BDC910092A432 /* Flixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13440C3A220BDC910092A432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13440C3F220BDC910092A432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 			children = (
 				13440C3A220BDC910092A432 /* AppDelegate.swift */,
 				13440C3E220BDC910092A432 /* Main.storyboard */,
+				131ADE8B2215020B006D1F47 /* SuperheroDetailsViewController.swift */,
 				13758E092213FF4B00DF989E /* MovieGridCell.swift */,
 				13440C6E2212B6930092A432 /* MovieGridViewController.swift */,
 				13440C6C221271940092A432 /* MovieDetailsViewController.swift */,
@@ -405,6 +408,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				131ADE8C2215020B006D1F47 /* SuperheroDetailsViewController.swift in Sources */,
 				13440C6F2212B6930092A432 /* MovieGridViewController.swift in Sources */,
 				13440C6D221271940092A432 /* MovieDetailsViewController.swift in Sources */,
 				13440C3B220BDC910092A432 /* AppDelegate.swift in Sources */,

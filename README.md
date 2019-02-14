@@ -7,11 +7,11 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### User Stories
 
 #### REQUIRED (10pts)
-- [ ] (5pts) User can tap a cell to see more details about a particular movie.
-- [ ] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+- [x] (5pts) User can tap a cell to see more details about a particular movie.
+- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
 
 #### BONUS
-- [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
+- [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
 - [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
 
 ### App Walkthough GIF
@@ -22,6 +22,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### Notes
 Describe any challenges encountered while building the app.
 ---
+Encountered an error called "Thread 1: signal SIGABRT" whenever I tap/clicked the "Superhero" tab on the iPhone. At first I tried to clean and re-build the project but the error still shows up. To resolve the problem, I did some research and based on what I found, my Movie Grid Cell from the Main Storyboard doesn't have an identifier to link with the MovieGridCell.swift.
 
 ## Flix Part 1
 
